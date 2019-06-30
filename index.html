@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simon - the memory game</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/my.js"></script>
+</head>
+
+<body>
+    <div class="container layout text-center">
+        <div class="simon py-3 py-md-5">
+            <h1>Simon</h1>
+        </div>
+        <div class="row">
+            <div class="col-6 pt-3 pt-md-5 mx-auto">
+                <button type="button" id="btn-1" class="btn btn-play mr-1 mb-1"><h3>green E (low)</h3></button>
+                <button type="button" id="btn-2" class="btn btn-play ml-1 mb-1"><h3>red A</h3></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 pb-3 pb-md-5 mx-auto">
+                <button type="button" id="btn-3" class="btn btn-play mr-1 mt-1"><h3>yellow C#</h3></button>
+                <button type="button" id="btn-4" class="btn btn-play ml-1 mt-1"><h3>blue E</h3></button>
+            </div>
+        </div>
+        <div class="Skill py-1 py-md-3">
+            <h4>Skill Level</h4>
+        </div>
+
+        <div class="row ">
+            <div class="btn-group btn-group-toggle mx-auto" data-toggle="buttons">
+                <label class="btn btn-primary active" id="Level_1">
+                    <input type="radio" name="level1" id="level1" autocomplete="off" checked="">1
+                </label>
+                <label class="btn btn-primary" id="Level_2">
+                    <input type="radio" name="level2" id="level2" autocomplete="off">2
+                    </label>
+                <label class="btn btn-primary" id="Level_3">
+                    <input type="radio" name="level3" id="level3 " autocomplete="off">3
+                </label>
+                <label class="btn btn-primary" id="Level_4">
+                    <input type="radio" name="level4" id="level4 " autocomplete="off">4
+                </label>
+            </div>
+        </div>
+        <div class="row pt-1 pt-md-4">
+            <div class="col-4 d-none"> <!--For later: Last button on Simon-->
+                
+            </div>
+            <div class="col-4 mx-auto"> 
+                <button id="start" class="btn btn-warning">Start</button>
+            </div>
+            <div class="col-4 d-none"> <!--For later: Longest button on Simon-->
+                
+            </div>
+        </div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+</body>
+
+</html>
